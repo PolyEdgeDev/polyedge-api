@@ -1,0 +1,13 @@
+{
+  "name": "polyedge-nodejs-example",
+  "version": "1.0.0",
+  "description": "PolyEdge Node.js SSE Client Example",
+  "main": "example.js",
+  "type": "module",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "dependencies": {
+    "eventsource-client": "^1.1.0"
+  }
+}
