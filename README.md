@@ -19,6 +19,7 @@ Explore the directories below to get started with the PolyEdge API:
     *   [Trader Market Orders](./api-docs/4-trader-market-orders.md)
     *   [Market Detail](./api-docs/5-market-detail.md)
     *   [Real-time Stream Orders](./api-docs/6-stream-orders.md)
+    *   [Trader Hourly Stats](./api-docs/7-trader-hourly-stats.md)
 *   💻 **[SDK Examples](./examples/)**: Official, production-ready example implementations demonstrating how to interact with the API and parse the highly-optimized compact data formats.
     *   [Node.js SDK & Examples](./examples/nodejs/)
     *   [Python SDK & Examples](./examples/python/)
