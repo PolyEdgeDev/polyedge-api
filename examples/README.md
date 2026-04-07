@@ -12,9 +12,10 @@ This directory contains official example implementations for the PolyEdge API in
 1.  **Leaderboard Retrieval**: Fetching top traders based on PNL, ROI, and other metrics.
 2.  **Trader Profiles**: Accessing detailed performance stats and metadata for specific addresses.
 3.  **Market History**: Viewing a trader's activity across different Polymarket events.
-4.  **Order Tracking**: Retrieving specific order details for a trader in a given market.
-5.  **Real-time Streaming**: Subscribing to the PolyEdge SSE stream for live mempool and on-chain order events.
-6.  **Compact Format Parsing**: Examples of how to parse the highly-optimized compact array format into structured JSON objects.
+4.  **Trader Hourly Stats**: Accessing aggregated hourly performance data (PNL, volume, market count).
+5.  **Order Tracking**: Retrieving specific order details for a trader in a given market.
+6.  **Real-time Streaming**: Subscribing to the PolyEdge SSE stream for live mempool and on-chain order events.
+7.  **Compact Format Parsing**: Examples of how to parse the highly-optimized compact array format into structured JSON objects.
 
 ## API Keys
 

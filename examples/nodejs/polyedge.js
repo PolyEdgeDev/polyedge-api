@@ -88,6 +88,22 @@ class PolyEdgeClient {
     }
 
     /**
+     * Get hourly aggregated performance data for a specific trader.
+     * @param {string} address - The EVM wallet address of the trader.
+     * @param {Object} [params] - Query parameters
+     * @param {string} [params.tag] - Filter by a specific market tag (e.g., 'crypto', 'politics').
+     * @returns {Promise<Object>}
+     */
+    async getTraderHourlyStats(address, params = {}) {
+        const query = new URLSearchParams(params).toString();
+        const response = await fetch(`${this.baseUrl}/traders/${address}/hourly_stats?${query}`, {
+            headers: this.headers
+        });
+        if (!response.ok) throw new Error(`API Error: ${response.status} ${response.statusText}`);
+        return response.json();
+    }
+
+    /**
      * Retrieve detailed information about a specific market.
      * @param {string|number} marketId - The unique numeric ID of the market.
      * @returns {Promise<Object>}

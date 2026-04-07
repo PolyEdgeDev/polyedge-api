@@ -93,6 +93,20 @@ class PolyEdgeClient:
         """
         return self._get(f"/traders/{address}/markets/{market_id}/orders")
 
+    def get_trader_hourly_stats(self, address, params=None):
+        """
+        Get hourly aggregated performance data for a specific trader.
+        
+        Args:
+            address (str): The EVM wallet address of the trader.
+            params (dict, optional): Query parameters
+                tag (str): Filter by a specific market tag (e.g., 'crypto', 'politics').
+                
+        Returns:
+            dict: API response.
+        """
+        return self._get(f"/traders/{address}/hourly_stats", params)
+
     def get_market_detail(self, market_id):
         """
         Retrieve detailed information about a specific market.

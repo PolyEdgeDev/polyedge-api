@@ -83,7 +83,18 @@ def main():
             print("No orders found.")
 
         print_divider()
-        print(f"5. Fetching Market Detail for {market_id}...")
+        print(f"5. Fetching Hourly Stats for Trader: {trader_address}...")
+        hourly_stats_response = client.get_trader_hourly_stats(trader_address)
+        print("\n>>> Trader Hourly Stats (Latest 3)")
+        stats_list = hourly_stats_response.get('stats')
+        if stats_list and len(stats_list) > 0:
+            for s in stats_list[:3]:
+                print(f"[{s.get('hour')}] PNL: ${format_amount(s.get('pnl', '0'))} | Volume: ${format_amount(s.get('volume', '0'))} | Markets: {s.get('market_count', 0)}")
+        else:
+            print("No hourly stats found.")
+
+        print_divider()
+        print(f"6. Fetching Market Detail for {market_id}...")
         market_detail_response = client.get_market_detail(market_id)
         print("\n>>> Market Detail")
         md = market_detail_response.get('market')
@@ -96,7 +107,7 @@ def main():
             print(f"Total Traders: {market_detail_response.get('total_traders', 0)}")
 
         print_divider()
-        print("🔥 6. Starting PolyEdge SSE Stream...")
+        print("🔥 7. Starting PolyEdge SSE Stream...")
         print("Listening for new orders (will exit after 3 events)...\n")
 
         event_count = 0

@@ -89,8 +89,21 @@ async function main() {
         }
 
         printDivider();
-        // 5. Get Market Detail
-        console.log(`5. Fetching Market Detail for ${marketId}...`);
+        // 5. Get Trader Hourly Stats
+        console.log(`5. Fetching Hourly Stats for Trader: ${traderAddress}...`);
+        const hourlyStatsResponse = await client.getTraderHourlyStats(traderAddress);
+        console.log(`\n>>> Trader Hourly Stats (Latest 3)`);
+        if (hourlyStatsResponse.stats && hourlyStatsResponse.stats.length > 0) {
+            hourlyStatsResponse.stats.slice(0, 3).forEach((s) => {
+                console.log(`[${s.hour}] PNL: $${formatAmount(s.pnl)} | Volume: $${formatAmount(s.volume)} | Markets: ${s.market_count}`);
+            });
+        } else {
+            console.log("No hourly stats found.");
+        }
+
+        printDivider();
+        // 6. Get Market Detail
+        console.log(`6. Fetching Market Detail for ${marketId}...`);
         const marketDetail = await client.getMarketDetail(marketId);
         console.log(`\n>>> Market Detail`);
         const md = marketDetail.market;
@@ -104,8 +117,8 @@ async function main() {
         }
 
         printDivider();
-        // 6. Stream Orders
-        console.log("🔥 6. Starting PolyEdge SSE Stream...");
+        // 7. Stream Orders
+        console.log("🔥 7. Starting PolyEdge SSE Stream...");
         console.log("Listening for new orders (will exit after 3 events)...\n");
 
         let eventCount = 0;
