@@ -16,149 +16,204 @@ Retrieve core information and aggregate statistics for a specific market. This i
 
 Returns a JSON object with the `market` details, overall statistics (volume, PNL distributed), and a list of `top_earners` in this market.
 
-### Example JSON Response (for Market: 1858809)
+### Example JSON Response (for Market: 2125937)
 
 ```json
 {
   "market": {
-    "id": "1858809",
-    "question": "Spread: Rockets (-3.5)",
-    "slug": "nba-hou-gsw-2026-04-05-spread-away-3pt5",
-    "start_date": "2026-04-04T10:12:49Z",
-    "end_date": "2026-04-06T02:00:00Z",
-    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+    "id": "2125937",
+    "question": "Aix en Provence: Zizou Bergs vs Rinky Hijikata",
+    "slug": "atp-bergs-hijikat-2026-05-01",
+    "start_date": "2026-04-30T16:04:55Z",
+    "end_date": "2026-05-08T09:00:00Z",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
     "neg_risk": false,
-    "event_slug": "nba-hou-gsw-2026-04-05",
-    "series_slug": "nba-2026",
+    "event_slug": "atp-bergs-hijikat-2026-05-01",
+    "series_slug": "atp",
     "tags": [
       "sports",
-      "basketball",
-      "nba",
+      "tennis",
       "games"
     ],
-    "outcome_1": "Rockets",
-    "outcome_2": "Warriors",
-    "group_item_title": "Spread -3.5",
-    "event_title": "Rockets vs. Warriors",
-    "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+    "outcome_1": "Zizou Bergs",
+    "outcome_2": "Rinky Hijikata",
+    "group_item_title": "",
+    "event_title": "Aix en Provence: Zizou Bergs vs Rinky Hijikata",
+    "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
     "resolved_at": "",
     "winning_outcome": ""
   },
-  "total_volume": "1208280786130",
-  "total_pnl_distributed": "1466428766",
-  "total_traders": 775,
+  "total_volume": "91110195126",
+  "total_pnl_distributed": "921965338",
+  "total_traders": 405,
   "top_earners": [
     {
       "profile": {
-        "address": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-        "name": "ferrariChampions2026",
+        "address": "0x547db0c8fcef2ed4a8de7819a0882b8be3bcea58",
+        "name": "Bitcoin150K",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-03-25T18:19:26Z",
-        "last_trade_at": "2026-04-06T03:34:13Z"
+        "profile_created_at": "2026-02-28T17:58:29Z",
+        "last_trade_at": "2026-05-01T10:16:58Z"
       },
-      "pnl": "454336543",
-      "volume": "33583850653",
-      "roi": 10.718210686660893,
+      "pnl": "339752051",
+      "volume": "3947872350",
+      "roi": 35.84619566991226,
       "rank": 1
     },
     {
       "profile": {
-        "address": "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
-        "name": "ShucksIt69",
+        "address": "0x5f3d984cd28f4e221933c7651303ee59afad3d83",
+        "name": "rajami",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2024-09-11T16:57:39Z",
-        "last_trade_at": "2026-04-06T02:08:33Z"
+        "profile_created_at": "2026-04-19T17:48:24Z",
+        "last_trade_at": "2026-05-01T10:13:50Z"
       },
-      "pnl": "307075598",
-      "volume": "58845729424",
-      "roi": 3.592157001577364,
+      "pnl": "99997801",
+      "volume": "299995599",
+      "roi": 100.00000200004402,
       "rank": 2
     },
     {
       "profile": {
-        "address": "0x955a42eb5706f4a0db3b5dceb7a4d670d3ca60e1",
-        "name": "sport00111",
-        "profile_image": "",
+        "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+        "name": "GamblingIsAllYouNeed",
+        "profile_image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4070827-b30f95ed-6835-4ac6-a456-f066d6968f97.png",
         "x_username": "",
-        "profile_created_at": "2026-04-02T08:24:32Z",
-        "last_trade_at": "2026-04-06T03:06:53Z"
+        "profile_created_at": "2025-11-11T07:36:59Z",
+        "last_trade_at": "2026-05-01T10:27:22Z"
       },
-      "pnl": "133088994",
-      "volume": "1072693084",
-      "roi": 29.004643720185648,
+      "pnl": "86621343",
+      "volume": "7983877937",
+      "roi": 2.5025121371256933,
       "rank": 3
     },
     {
       "profile": {
-        "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-        "name": "swisstony",
+        "address": "0x48eea23704165e005efbc36f0afc6cac31b50db4",
+        "name": "ignacioaguirregomezcorta",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2025-07-29T14:46:06Z",
-        "last_trade_at": "2026-04-06T03:36:11Z"
+        "profile_created_at": "2026-01-18T12:48:43Z",
+        "last_trade_at": "2026-05-01T09:57:58Z"
       },
-      "pnl": "102031772",
-      "volume": "5042351562",
-      "roi": 4.766617841597805,
+      "pnl": "68572786",
+      "volume": "368570298",
+      "roi": 68.57278668572786,
       "rank": 4
     },
     {
       "profile": {
-        "address": "0xa697d0b3fff7d285a0f92d6ee03a7f97809e59d5",
-        "name": "0xa697d0b3FFf7D285a0F92d6Ee03a7f97809E59d5-1774326306031",
+        "address": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+        "name": "TRCM",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-03-24T04:25:06Z",
-        "last_trade_at": "2026-04-06T03:35:31Z"
+        "profile_created_at": "2026-01-14T09:45:55Z",
+        "last_trade_at": "2026-05-01T10:23:42Z"
       },
-      "pnl": "65046681",
-      "volume": "7265209970",
-      "roi": 2.071907540580036,
+      "pnl": "38813330",
+      "volume": "1059021791",
+      "roi": 7.75833799563246,
       "rank": 5
     },
     {
       "profile": {
-        "address": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
-        "name": "EFFICIENCYEXPERT",
-        "profile_image": "",
+        "address": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "name": "tradecraft",
+        "profile_image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
         "x_username": "",
-        "profile_created_at": "2025-11-01T08:05:50Z",
-        "last_trade_at": "2026-04-06T03:28:01Z"
+        "profile_created_at": "2024-11-18T21:05:16Z",
+        "last_trade_at": "2026-05-01T10:27:44Z"
       },
-      "pnl": "42717116",
-      "volume": "5662756098",
-      "roi": 1.7257666420142654,
+      "pnl": "35583300",
+      "volume": "219195498",
+      "roi": 38.93429708118328,
       "rank": 6
     },
     {
       "profile": {
-        "address": "0x5fea774d3548a44d48452e868d7faf0c860078b1",
-        "name": "CurbFlayer",
+        "address": "0x0d122990c6b162a772399d73297075f6acf84070",
+        "name": "stak0n",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-03-14T14:59:34Z",
-        "last_trade_at": "2026-04-06T03:35:03Z"
+        "profile_created_at": "2026-02-25T08:34:59Z",
+        "last_trade_at": "2026-05-01T09:54:00Z"
       },
-      "pnl": "41480556",
-      "volume": "1084836371",
-      "roi": 9.745767373986327,
+      "pnl": "34996173",
+      "volume": "684960761",
+      "roi": 10.769226645704547,
       "rank": 7
     },
     {
       "profile": {
-        "address": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-        "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
+        "address": "0x942d35aa3ba07b2246d1279f64c3d24fcf80896c",
+        "name": "ont5555",
+        "profile_image": "",
+        "x_username": "numuotopwall5",
+        "profile_created_at": "2026-01-07T04:08:57Z",
+        "last_trade_at": "2026-05-01T09:53:02Z"
+      },
+      "pnl": "33300000",
+      "volume": "97680000",
+      "roi": 103.44827586206897,
+      "rank": 8
+    },
+    {
+      "profile": {
+        "address": "0x79dcb362c47ba851d75cf5873735391b2c81ca77",
+        "name": "rocky42008",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2025-09-05T17:52:52Z",
-        "last_trade_at": "2026-04-06T03:35:31Z"
+        "profile_created_at": "2025-06-25T12:39:40Z",
+        "last_trade_at": "2026-05-01T10:25:34Z"
       },
-      "pnl": "37898800",
-      "volume": "2193108299",
-      "roi": 43.0649585586077,
-      "rank": 8
+      "pnl": "30610661",
+      "volume": "277991697",
+      "roi": 38.639170426719964,
+      "rank": 9
+    },
+    {
+      "profile": {
+        "address": "0x31d4d4f3d4e6ac5327e9b070b8aa9fee7d6e5c13",
+        "name": "0x31D4d4F3d4E6Ac5327e9B070b8aa9Fee7D6E5C13-1761658833084",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2025-10-28T13:40:35Z",
+        "last_trade_at": "2026-05-01T09:57:36Z"
+      },
+      "pnl": "23913334",
+      "volume": "98911398",
+      "roi": 95.65333982613359,
+      "rank": 10
+    },
+    {
+      "profile": {
+        "address": "0x56280cd4cf8f902b3971338ddb04038e9dbfabbc",
+        "name": "Po1yamory",
+        "profile_image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/logo_3_bc3c4e0e-4210-4cb2-81ab-75d2d5926fb1_1737441554995.webp",
+        "x_username": "",
+        "profile_created_at": "2025-01-21T06:24:04Z",
+        "last_trade_at": "2026-05-01T10:27:44Z"
+      },
+      "pnl": "22646576",
+      "volume": "687692561",
+      "roi": 9.204803264954892,
+      "rank": 11
+    },
+    {
+      "profile": {
+        "address": "0xb4f334eb2ec0fd1eda346cd854babafcf4c6999f",
+        "name": "ab-z",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2025-10-25T21:20:01Z",
+        "last_trade_at": "2026-05-01T10:18:38Z"
+      },
+      "pnl": "11559600",
+      "volume": "62203200",
+      "roi": 57.57575757575758,
+      "rank": 12
     },
     {
       "profile": {
@@ -167,82 +222,82 @@ Returns a JSON object with the `market` details, overall statistics (volume, PNL
         "profile_image": "",
         "x_username": "",
         "profile_created_at": "2025-12-29T16:03:44Z",
-        "last_trade_at": "2026-04-06T03:28:51Z"
+        "last_trade_at": "2026-05-01T10:24:50Z"
       },
-      "pnl": "35758352",
-      "volume": "3149879001",
-      "roi": 2.2629485927880877,
-      "rank": 9
-    },
-    {
-      "profile": {
-        "address": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-        "name": "VeryLucky888",
-        "profile_image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3980992-50a3f24e-e4d8-4388-86ae-d9c063867f3e.webp",
-        "x_username": "TheVeryLucky888",
-        "profile_created_at": "2025-11-05T09:40:21Z",
-        "last_trade_at": "2026-04-06T03:29:19Z"
-      },
-      "pnl": "28838727",
-      "volume": "2151021340",
-      "roi": 2.7198986924676505,
-      "rank": 10
-    },
-    {
-      "profile": {
-        "address": "0xcf7379b4b891c06d88807f6f70efa75378120215",
-        "name": "NM-P",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2026-01-01T17:28:55Z",
-        "last_trade_at": "2026-04-06T03:24:05Z"
-      },
-      "pnl": "25872059",
-      "volume": "1921562330",
-      "roi": 2.6824396982253926,
-      "rank": 11
-    },
-    {
-      "profile": {
-        "address": "0xbfd770b7ff07fb2ece41b0e7c593db65a84cf0bf",
-        "name": "valnech",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2025-10-30T07:03:56Z",
-        "last_trade_at": "2026-04-06T03:36:19Z"
-      },
-      "pnl": "23801552",
-      "volume": "758382436",
-      "roi": 8.862154298826313,
-      "rank": 12
-    },
-    {
-      "profile": {
-        "address": "0x661daf6af6d884012dd6db73c09d72e8be224dc6",
-        "name": "DOLLAR-PRINTER",
-        "profile_image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3789798-0c95bc9f-6e5c-4412-bba2-32a03f9c1ed3.webp",
-        "x_username": "",
-        "profile_created_at": "2025-10-28T06:26:21Z",
-        "last_trade_at": "2026-04-06T03:32:15Z"
-      },
-      "pnl": "23500000",
-      "volume": "706000000",
-      "roi": 10.930232558139535,
+      "pnl": "11254700",
+      "volume": "445602267",
+      "roi": 3.6426148425218896,
       "rank": 13
     },
     {
       "profile": {
-        "address": "0xe40172522c7c64afa2d052ddae6c92cd0f417b88",
-        "name": "BoomLaLa",
+        "address": "0x6d726036024348b8af9ad0108dbe3eccf7bdc356",
+        "name": "Prince690",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2024-12-11T01:27:39Z",
-        "last_trade_at": "2026-04-06T03:32:17Z"
+        "profile_created_at": "2024-09-22T09:28:30Z",
+        "last_trade_at": "2026-05-01T10:23:08Z"
       },
-      "pnl": "19153371",
-      "volume": "422583887",
-      "roi": 18.51152228366504,
+      "pnl": "11100000",
+      "volume": "53100000",
+      "roi": 52.857142857142854,
       "rank": 14
+    },
+    {
+      "profile": {
+        "address": "0x18c6e0208b684870fbe6b4aef2ce91838620a7c6",
+        "name": "rixxaner125",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2026-04-01T15:30:39Z",
+        "last_trade_at": "2026-05-01T09:53:34Z"
+      },
+      "pnl": "10497000",
+      "volume": "30791200",
+      "roi": 103.44827586206897,
+      "rank": 15
+    },
+    {
+      "profile": {
+        "address": "0xf39d6816916706fa2d1219027e0f7b9b35f7a5e9",
+        "name": "nopsts",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2026-03-16T18:11:10Z",
+        "last_trade_at": "2026-05-01T10:14:36Z"
+      },
+      "pnl": "6896013",
+      "volume": "106892098",
+      "roi": 13.7931057243161,
+      "rank": 16
+    },
+    {
+      "profile": {
+        "address": "0x91d593b25322f411e491c6c1febf9316435f5a73",
+        "name": "ChouInnnn",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2026-03-17T10:26:39Z",
+        "last_trade_at": "2026-05-01T10:03:24Z"
+      },
+      "pnl": "6153601",
+      "volume": "16153399",
+      "roi": 123.0769676941013,
+      "rank": 17
+    },
+    {
+      "profile": {
+        "address": "0x66b102468892d00a90c98ed8aec1d2b24904340f",
+        "name": "astapzippo",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2025-08-21T06:32:23Z",
+        "last_trade_at": "2026-05-01T10:17:30Z"
+      },
+      "pnl": "5638580",
+      "volume": "809936786",
+      "roi": 4.358780229839778,
+      "rank": 18
     },
     {
       "profile": {
@@ -251,84 +306,28 @@ Returns a JSON object with the `market` details, overall statistics (volume, PNL
         "profile_image": "",
         "x_username": "",
         "profile_created_at": "2026-02-08T12:01:09Z",
-        "last_trade_at": "2026-04-06T03:36:15Z"
+        "last_trade_at": "2026-05-01T10:27:32Z"
       },
-      "pnl": "16563542",
-      "volume": "280323988",
-      "roi": 14.820087758210866,
-      "rank": 15
-    },
-    {
-      "profile": {
-        "address": "0x6b7c75862e64d6e976d2c08ad9f9b54add6c5f83",
-        "name": "tcp2",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2025-09-11T19:07:40Z",
-        "last_trade_at": "2026-04-06T03:36:03Z"
-      },
-      "pnl": "14988156",
-      "volume": "3026345552",
-      "roi": 1.0510011726443866,
-      "rank": 16
-    },
-    {
-      "profile": {
-        "address": "0x2cecf842a8e47711191b035c3e87d04817ee5326",
-        "name": "0x2CeCF842a8E47711191b035c3e87d04817ee5326-1772823474278",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2026-03-06T18:57:53Z",
-        "last_trade_at": "2026-04-06T01:49:35Z"
-      },
-      "pnl": "11804019",
-      "volume": "1602004998",
-      "roi": 1.9999999017283907,
-      "rank": 17
-    },
-    {
-      "profile": {
-        "address": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
-        "name": "sovereign2013",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2025-07-25T12:23:17Z",
-        "last_trade_at": "2026-04-05T20:32:51Z"
-      },
-      "pnl": "10116400",
-      "volume": "1513424100",
-      "roi": 2.0716772816474793,
-      "rank": 18
-    },
-    {
-      "profile": {
-        "address": "0x4595dd02dcaa1e053d113332d594d96c1e85df87",
-        "name": "cuttiecat",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2026-03-08T09:20:19Z",
-        "last_trade_at": "2026-04-06T03:34:49Z"
-      },
-      "pnl": "9999261",
-      "volume": "1029961589",
-      "roi": 1.9607842483611848,
+      "pnl": "5261924",
+      "volume": "105465997",
+      "roi": 20.48224192780929,
       "rank": 19
     },
     {
       "profile": {
-        "address": "0x1e4647c2429fa5a9e95088c883f2c5fa9a965737",
-        "name": "haonangege",
+        "address": "0xed9fb9477d29e2dd4bfd3c7a50df4f20260c94bf",
+        "name": "RN6",
         "profile_image": "",
-        "x_username": "dengjiayu521",
-        "profile_created_at": "2025-07-28T16:56:16Z",
-        "last_trade_at": "2026-04-06T03:36:09Z"
+        "x_username": "",
+        "profile_created_at": "2026-04-30T06:44:01Z",
+        "last_trade_at": "2026-05-01T10:08:06Z"
       },
-      "pnl": "8870400",
-      "volume": "60496000",
-      "roi": 34.61538461538461,
+      "pnl": "5053700",
+      "volume": "25838410",
+      "roi": 48.62927359679763,
       "rank": 20
     }
   ],
-  "total_winners": 71
+  "total_winners": 54
 }
 ```

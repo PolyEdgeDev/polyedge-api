@@ -34,90 +34,90 @@ Returns a JSON object containing a list of `traders` with their profile details,
   "traders": [
     {
       "profile": {
-        "address": "0x50b1db131a24a9d9450bbd0372a95d32ea88f076",
-        "name": "blindStaking",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2026-03-12T19:53:36Z",
-        "last_trade_at": "2026-04-05T01:00:55Z"
-      },
-      "total_pnl": "1620149290085",
-      "total_volume": "2553211530521",
-      "roi": 63.46,
-      "win_rate": 50,
-      "rank": 1,
-      "markets_count": 4,
-      "wins_count": 2
-    },
-    {
-      "profile": {
         "address": "0xbddf61af533ff524d27154e589d2d7a81510c684",
         "name": "Countryside",
         "profile_image": "",
         "x_username": "",
         "profile_created_at": "2025-11-06T22:44:56Z",
-        "last_trade_at": "2026-04-06T03:29:37Z"
+        "last_trade_at": "2026-05-01T09:11:06Z"
       },
-      "total_pnl": "782234111611",
-      "total_volume": "3637703116635",
-      "roi": 30.39,
-      "win_rate": 40.43,
+      "total_pnl": "849274911071",
+      "total_volume": "1300390168376",
+      "roi": 44.58,
+      "win_rate": 43.75,
+      "rank": 1,
+      "markets_count": 48,
+      "wins_count": 21
+    },
+    {
+      "profile": {
+        "address": "0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9",
+        "name": "BoerAc",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2026-04-23T17:00:49Z",
+        "last_trade_at": "2026-04-30T16:35:10Z"
+      },
+      "total_pnl": "468704708763",
+      "total_volume": "625176315982",
+      "roi": 74.97,
+      "win_rate": 80,
       "rank": 2,
-      "markets_count": 47,
-      "wins_count": 19
+      "markets_count": 10,
+      "wins_count": 8
     },
     {
       "profile": {
-        "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
-        "name": "surfandturf",
+        "address": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+        "name": "bossoskil1",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-04-01T06:03:57Z",
-        "last_trade_at": "2026-04-06T02:32:33Z"
+        "profile_created_at": "2026-01-06T21:37:42Z",
+        "last_trade_at": "2026-05-01T08:53:02Z"
       },
-      "total_pnl": "639292755514",
-      "total_volume": "2190632870982",
-      "roi": 46.52,
-      "win_rate": 61.54,
+      "total_pnl": "461002446746",
+      "total_volume": "2606651724778",
+      "roi": 22.79,
+      "win_rate": 52,
       "rank": 3,
-      "markets_count": 26,
-      "wins_count": 16
+      "markets_count": 75,
+      "wins_count": 39
     },
     {
       "profile": {
-        "address": "0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f",
-        "name": "0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725",
+        "address": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+        "name": "ferrariChampions2026",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-02-22T16:04:19Z",
-        "last_trade_at": "2026-04-06T02:28:21Z"
+        "profile_created_at": "2026-03-25T18:19:26Z",
+        "last_trade_at": "2026-05-01T09:09:24Z"
       },
-      "total_pnl": "607299024186",
-      "total_volume": "3430098687485",
-      "roi": 48.83,
-      "win_rate": 60.87,
+      "total_pnl": "436171585579",
+      "total_volume": "5238936016125",
+      "roi": 11.18,
+      "win_rate": 53.31,
       "rank": 4,
-      "markets_count": 46,
-      "wins_count": 28
+      "markets_count": 589,
+      "wins_count": 314
     },
     {
       "profile": {
-        "address": "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
-        "name": "Mentallyillgambld",
+        "address": "0xea2b4224411e723499a803ce3f4758779fb31fc6",
+        "name": "frankfrankfrank",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2024-11-05T20:15:29Z",
-        "last_trade_at": "2026-04-05T19:47:05Z"
+        "profile_created_at": "2025-10-20T16:08:40Z",
+        "last_trade_at": "2026-05-01T09:05:18Z"
       },
-      "total_pnl": "421561636018",
-      "total_volume": "835908056935",
-      "roi": 50.43,
-      "win_rate": 85.71,
+      "total_pnl": "411916207297",
+      "total_volume": "915406277899",
+      "roi": 47.86,
+      "win_rate": 56.25,
       "rank": 5,
-      "markets_count": 7,
-      "wins_count": 6
+      "markets_count": 32,
+      "wins_count": 18
     }
   ],
-  "total_count": 202991
+  "total_count": 158323
 }
 ```

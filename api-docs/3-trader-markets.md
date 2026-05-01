@@ -19,162 +19,157 @@ Retrieve a history of all markets where a specific trader has been active. For e
 
 Returns a JSON object featuring a `history` array of market-specific performance data and a `total_count` for easy pagination.
 
-### Example JSON Response (for 0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f)
+### Example JSON Response (for 0xfe787d2da716d60e8acff57fb87eb13cd4d10319)
 
 ```json
 {
   "history": [
     {
-      "pnl": "0",
-      "volume": "99844999995",
-      "roi": 0,
-      "last_trade_at": "2026-04-06T02:28:21Z",
+      "pnl": "-56796781",
+      "volume": "9073401891",
+      "roi": -1.2414962439098571,
+      "last_trade_at": "2026-05-01T10:27:28Z",
       "market": {
-        "id": "1858809",
-        "question": "Spread: Rockets (-3.5)",
-        "slug": "nba-hou-gsw-2026-04-05-spread-away-3pt5",
-        "start_date": "2026-04-04T10:12:49Z",
-        "end_date": "2026-04-06T02:00:00Z",
-        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+        "id": "2125937",
+        "question": "Aix en Provence: Zizou Bergs vs Rinky Hijikata",
+        "slug": "atp-bergs-hijikat-2026-05-01",
+        "start_date": "2026-04-30T16:04:55Z",
+        "end_date": "2026-05-08T09:00:00Z",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
         "neg_risk": false,
-        "event_slug": "nba-hou-gsw-2026-04-05",
-        "series_slug": "nba-2026",
+        "event_slug": "atp-bergs-hijikat-2026-05-01",
+        "series_slug": "atp",
         "tags": [
           "sports",
-          "basketball",
-          "nba",
+          "tennis",
           "games"
         ],
-        "outcome_1": "Rockets",
-        "outcome_2": "Warriors",
-        "group_item_title": "Spread -3.5",
-        "event_title": "Rockets vs. Warriors",
-        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "resolved_at": "",
-        "winning_outcome": ""
-      }
-    },
-    {
-      "pnl": "20956746601",
-      "volume": "70611742599",
-      "roi": 85.00000000750354,
-      "last_trade_at": "2026-04-06T01:24:41Z",
-      "market": {
-        "id": "1881148",
-        "question": "Spread: Hornets (-3.5)",
-        "slug": "nba-cha-min-2026-04-05-spread-away-3pt5",
-        "start_date": "2026-04-05T18:13:02Z",
-        "end_date": "2026-04-05T23:00:00Z",
-        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "neg_risk": false,
-        "event_slug": "nba-cha-min-2026-04-05",
-        "series_slug": "nba-2026",
-        "tags": [
-          "sports",
-          "basketball",
-          "nba",
-          "games"
-        ],
-        "outcome_1": "Hornets",
-        "outcome_2": "Timberwolves",
-        "group_item_title": "Spread -3.5",
-        "event_title": "Hornets vs. Timberwolves",
-        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "resolved_at": "",
-        "winning_outcome": ""
-      }
-    },
-    {
-      "pnl": "21847823040",
-      "volume": "71494998459",
-      "roi": 88.64229944284625,
-      "last_trade_at": "2026-04-06T01:24:19Z",
-      "market": {
-        "id": "1883510",
-        "question": "Spread: Hornets (-4.5)",
-        "slug": "nba-cha-min-2026-04-05-spread-away-4pt5",
-        "start_date": "2026-04-05T22:12:38Z",
-        "end_date": "2026-04-05T23:00:00Z",
-        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "neg_risk": false,
-        "event_slug": "nba-cha-min-2026-04-05",
-        "series_slug": "nba-2026",
-        "tags": [
-          "sports",
-          "basketball",
-          "nba",
-          "games"
-        ],
-        "outcome_1": "Hornets",
-        "outcome_2": "Timberwolves",
-        "group_item_title": "Spread -4.5",
-        "event_title": "Hornets vs. Timberwolves",
-        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "resolved_at": "",
-        "winning_outcome": ""
-      }
-    },
-    {
-      "pnl": "61203112561",
-      "volume": "256132274818",
-      "roi": 62.207768015697674,
-      "last_trade_at": "2026-04-06T01:23:59Z",
-      "market": {
-        "id": "1791503",
-        "question": "Hornets vs. Timberwolves",
-        "slug": "nba-cha-min-2026-04-05",
-        "start_date": "2026-03-30T14:03:07Z",
-        "end_date": "2026-04-05T23:00:00Z",
-        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "neg_risk": false,
-        "event_slug": "nba-cha-min-2026-04-05",
-        "series_slug": "nba-2026",
-        "tags": [
-          "sports",
-          "basketball",
-          "nba",
-          "games"
-        ],
-        "outcome_1": "Hornets",
-        "outcome_2": "Timberwolves",
+        "outcome_1": "Zizou Bergs",
+        "outcome_2": "Rinky Hijikata",
         "group_item_title": "",
-        "event_title": "Hornets vs. Timberwolves",
-        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-        "resolved_at": "2026-04-06T03:27:05Z",
-        "winning_outcome": "Hornets"
+        "event_title": "Aix en Provence: Zizou Bergs vs Rinky Hijikata",
+        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+        "resolved_at": "",
+        "winning_outcome": ""
       }
     },
     {
-      "pnl": "0",
-      "volume": "149999999997",
-      "roi": 0,
-      "last_trade_at": "2026-04-06T00:45:59Z",
+      "pnl": "-144381537",
+      "volume": "2827872798",
+      "roi": -29.083818701405406,
+      "last_trade_at": "2026-05-01T10:27:16Z",
       "market": {
-        "id": "1791537",
-        "question": "Lakers vs. Mavericks",
-        "slug": "nba-lal-dal-2026-04-05",
-        "start_date": "2026-03-30T14:02:51Z",
-        "end_date": "2026-04-05T23:30:00Z",
-        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+        "id": "2116700",
+        "question": "Ostrava: Marco Cecchinato vs Raul Brancaccio",
+        "slug": "atp-cecchin-brancac-2026-05-01",
+        "start_date": "2026-04-29T16:05:30Z",
+        "end_date": "2026-05-08T08:00:00Z",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
         "neg_risk": false,
-        "event_slug": "nba-lal-dal-2026-04-05",
-        "series_slug": "nba-2026",
+        "event_slug": "atp-cecchin-brancac-2026-05-01",
+        "series_slug": "atp",
         "tags": [
           "sports",
-          "basketball",
-          "nba",
+          "tennis",
           "games"
         ],
-        "outcome_1": "Lakers",
-        "outcome_2": "Mavericks",
+        "outcome_1": "Marco Cecchinato",
+        "outcome_2": "Raul Brancaccio",
         "group_item_title": "",
-        "event_title": "Lakers vs. Mavericks",
-        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+        "event_title": "Ostrava: Marco Cecchinato vs Raul Brancaccio",
+        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+        "resolved_at": "",
+        "winning_outcome": ""
+      }
+    },
+    {
+      "pnl": "39381418",
+      "volume": "5112815844",
+      "roi": 3.013732006283948,
+      "last_trade_at": "2026-05-01T10:26:18Z",
+      "market": {
+        "id": "2125938",
+        "question": "La Bisbal: Alina Charaeva vs Daria Kasatkina",
+        "slug": "wta-charaev-kasatki-2026-05-01",
+        "start_date": "2026-04-30T16:02:49Z",
+        "end_date": "2026-05-08T09:00:00Z",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+        "neg_risk": false,
+        "event_slug": "wta-charaev-kasatki-2026-05-01",
+        "series_slug": "wta",
+        "tags": [
+          "sports",
+          "tennis",
+          "games"
+        ],
+        "outcome_1": "Alina Charaeva",
+        "outcome_2": "Daria Kasatkina",
+        "group_item_title": "",
+        "event_title": "La Bisbal: Alina Charaeva vs Daria Kasatkina",
+        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+        "resolved_at": "",
+        "winning_outcome": ""
+      }
+    },
+    {
+      "pnl": "-745894",
+      "volume": "79687730",
+      "roi": -1.631422210039983,
+      "last_trade_at": "2026-05-01T10:24:24Z",
+      "market": {
+        "id": "2125940",
+        "question": "Cagliari: Matteo Arnaldi vs Nuno Borges",
+        "slug": "atp-arnaldi-borges-2026-05-01",
+        "start_date": "2026-04-30T16:03:52Z",
+        "end_date": "2026-05-08T08:00:00Z",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+        "neg_risk": false,
+        "event_slug": "atp-arnaldi-borges-2026-05-01",
+        "series_slug": "atp",
+        "tags": [
+          "sports",
+          "tennis",
+          "games"
+        ],
+        "outcome_1": "Matteo Arnaldi",
+        "outcome_2": "Nuno Borges",
+        "group_item_title": "",
+        "event_title": "Cagliari: Matteo Arnaldi vs Nuno Borges",
+        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+        "resolved_at": "",
+        "winning_outcome": ""
+      }
+    },
+    {
+      "pnl": "-451982778",
+      "volume": "6437316766",
+      "roi": -59.87813431865374,
+      "last_trade_at": "2026-05-01T10:23:10Z",
+      "market": {
+        "id": "2119368",
+        "question": "Saint-Malo: Moyuka Uchijima vs Sofia Costoulas",
+        "slug": "wta-uchijim-costoul-2026-05-01",
+        "start_date": "2026-04-29T22:02:33Z",
+        "end_date": "2026-05-08T08:00:00Z",
+        "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+        "neg_risk": false,
+        "event_slug": "wta-uchijim-costoul-2026-05-01",
+        "series_slug": "wta",
+        "tags": [
+          "sports",
+          "tennis",
+          "games"
+        ],
+        "outcome_1": "Moyuka Uchijima",
+        "outcome_2": "Sofia Costoulas",
+        "group_item_title": "",
+        "event_title": "Saint-Malo: Moyuka Uchijima vs Sofia Costoulas",
+        "event_icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
         "resolved_at": "",
         "winning_outcome": ""
       }
     }
   ],
-  "total_count": 414
+  "total_count": 7100
 }
 ```
