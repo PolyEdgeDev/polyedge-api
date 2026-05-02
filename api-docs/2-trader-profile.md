@@ -16,135 +16,102 @@ Get detailed performance statistics and metadata for a specific trader. This inc
 
 Returns a JSON object with the trader's `profile` metadata, a list of their most successful `top_tags`, and a `stats` object containing performance data for different time intervals.
 
-### Example JSON Response (for 0xfe787d2da716d60e8acff57fb87eb13cd4d10319)
+### Example JSON Response (for 0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9)
 
 ```json
 {
   "profile": {
-    "address": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-    "name": "ferrariChampions2026",
+    "address": "0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9",
+    "name": "BoerAc",
     "profile_image": "",
     "x_username": "",
-    "profile_created_at": "2026-03-25 18:19:26Z",
-    "last_trade_at": "2026-05-01 10:27:28Z"
+    "profile_created_at": "2026-04-23 17:00:49Z",
+    "last_trade_at": "2026-05-02 01:34:08Z"
   },
   "top_tags": [
     {
       "slug": "sports",
-      "pnl": "699319765818",
-      "volume": "47840009103237",
-      "roi": 1.97,
-      "win_rate": 49.9,
-      "markets_count": 6990,
-      "maker_volume": "29878288907958",
-      "taker_volume": "17961720195279",
-      "wins_count": 3488
+      "pnl": "136520746527",
+      "volume": "1188050763083",
+      "roi": 11.63,
+      "win_rate": 53.57,
+      "markets_count": 28,
+      "maker_volume": "322015732083",
+      "taker_volume": "866035031000",
+      "wins_count": 15
     },
     {
       "slug": "tennis",
-      "pnl": "607423487314",
-      "volume": "18887624380085",
-      "roi": 4.95,
-      "win_rate": 44.99,
-      "markets_count": 1427,
-      "maker_volume": "13215081644676",
-      "taker_volume": "5672542735409",
-      "wins_count": 642
-    },
-    {
-      "slug": "soccer",
-      "pnl": "222987306833",
-      "volume": "5144950196667",
-      "roi": 4.93,
-      "win_rate": 51.73,
-      "markets_count": 2695,
-      "maker_volume": "1462000072748",
-      "taker_volume": "3682950123919",
-      "wins_count": 1394
-    },
-    {
-      "slug": "hockey",
-      "pnl": "-4846010132",
-      "volume": "950375671563",
-      "roi": -0.66,
-      "win_rate": 53.49,
-      "markets_count": 86,
-      "maker_volume": "859137943373",
-      "taker_volume": "91237728190",
-      "wins_count": 46
-    },
-    {
-      "slug": "basketball",
-      "pnl": "-396844070411",
-      "volume": "14960924619164",
-      "roi": -3.45,
-      "win_rate": 46.13,
-      "markets_count": 1110,
-      "maker_volume": "8315750079457",
-      "taker_volume": "6645174539707",
-      "wins_count": 512
+      "pnl": "-71553500",
+      "volume": "106553500",
+      "roi": -67.15,
+      "win_rate": 50,
+      "markets_count": 4,
+      "maker_volume": "25950000",
+      "taker_volume": "80603500",
+      "wins_count": 2
     }
   ],
   "stats": {
     "t_1h": {
-      "pnl": "-483480878",
-      "volume": "46729438874",
-      "roi": -4.04,
-      "win_rate": 40,
-      "markets_count": 10,
-      "wins_count": 4,
-      "maker_volume": "37891361575",
-      "taker_volume": "8838077299"
+      "pnl": "0",
+      "volume": "0",
+      "roi": 0,
+      "win_rate": 0,
+      "markets_count": 1,
+      "wins_count": 0,
+      "maker_volume": "0",
+      "taker_volume": "0"
     },
     "t_4h": {
-      "pnl": "54722861",
-      "volume": "104030102898",
-      "roi": 0.14,
-      "win_rate": 38.89,
-      "markets_count": 18,
-      "wins_count": 7,
-      "maker_volume": "86235789910",
-      "taker_volume": "17794312988"
+      "pnl": "0",
+      "volume": "0",
+      "roi": 0,
+      "win_rate": 0,
+      "markets_count": 1,
+      "wins_count": 0,
+      "maker_volume": "0",
+      "taker_volume": "0"
     },
     "t_1d": {
-      "pnl": "73236968323",
-      "volume": "1709977839582",
-      "roi": 5.58,
-      "win_rate": 54.01,
-      "markets_count": 187,
-      "wins_count": 101,
-      "maker_volume": "1101001477242",
-      "taker_volume": "608976362340"
+      "pnl": "56527855741",
+      "volume": "124575239124",
+      "roi": 51.4,
+      "win_rate": 50,
+      "markets_count": 4,
+      "wins_count": 2,
+      "maker_volume": "66951127924",
+      "taker_volume": "57624111200"
     },
     "t_3d": {
-      "pnl": "449494538079",
-      "volume": "5211103112118",
-      "roi": 11.64,
-      "win_rate": 53.18,
-      "markets_count": 581,
-      "wins_count": 309,
-      "maker_volume": "3348394097571",
-      "taker_volume": "1862709014547"
+      "pnl": "467498184704",
+      "volume": "693556572906",
+      "roi": 68.86,
+      "win_rate": 69.23,
+      "markets_count": 13,
+      "wins_count": 9,
+      "maker_volume": "141264388406",
+      "taker_volume": "552292184500"
     },
     "t_7d": {
-      "pnl": "665465054870",
-      "volume": "12735659488959",
-      "roi": 7.18,
-      "win_rate": 52.8,
-      "markets_count": 1534,
-      "wins_count": 810,
-      "maker_volume": "8656373908057",
-      "taker_volume": "4079285580902"
+      "pnl": "229121301599",
+      "volume": "1095415208011",
+      "roi": 21.2,
+      "win_rate": 65,
+      "markets_count": 20,
+      "wins_count": 13,
+      "maker_volume": "319812993311",
+      "taker_volume": "775602214700"
     },
     "t_30d": {
-      "pnl": "699319765818",
-      "volume": "47840009103237",
-      "roi": 1.97,
-      "win_rate": 49.9,
-      "markets_count": 6990,
-      "wins_count": 3488,
-      "maker_volume": "29878288907958",
-      "taker_volume": "17961720195279"
+      "pnl": "136520746527",
+      "volume": "1188050763083",
+      "roi": 11.63,
+      "win_rate": 53.57,
+      "markets_count": 28,
+      "wins_count": 15,
+      "maker_volume": "322015732083",
+      "taker_volume": "866035031000"
     }
   }
 }

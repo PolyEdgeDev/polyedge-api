@@ -46,6 +46,7 @@ class PolyEdgeClient:
                 last_active_hours (int): Filter traders active in the last N hours.
                 min_market_count (int): Minimum number of markets traded.
                 max_market_count (int): Maximum number of markets traded.
+                min_pnl (int): Minimum PnL (USDC).
                 
         Returns:
             dict: API response.

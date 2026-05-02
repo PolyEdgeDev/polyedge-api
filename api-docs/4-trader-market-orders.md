@@ -17,46 +17,49 @@ Retrieve a comprehensive list of individual orders placed by a specific trader w
 
 Returns a JSON object containing an `orders` array. Each order specifies the execution timestamp, side (`BUY`/`SELL`), price, USDC volume, share amount, order hash, and the number of matched counter-orders.
 
-### Example JSON Response (for Trader: 0xfe787d2da716d60e8acff57fb87eb13cd4d10319, Market: 2125937)
+### Example JSON Response (for Trader: 0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9, Market: 2134185)
 
 ```json
 {
   "orders": [
     {
-      "time": "2026-05-01T09:11:42Z",
-      "outcome": "Rinky Hijikata",
+      "time": "2026-05-02T00:17:28Z",
+      "outcome": "Under",
       "side": "BUY",
-      "price": "290000",
-      "shares": "1059460000",
-      "usdc": "307243400",
+      "price": "460000",
+      "shares": "247000000",
+      "usdc": "113620000",
+      "order_hash": "",
+      "is_taker": false,
+      "fill_count": 1,
+      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
+      "fee": "0"
+    },
+    {
+      "time": "2026-05-02T00:17:28Z",
+      "outcome": "Under",
+      "side": "BUY",
+      "price": "460000",
+      "shares": "12550590000",
+      "usdc": "5773271400",
       "order_hash": "",
       "is_taker": true,
       "fill_count": 1,
-      "token_id": "50308069819514591694410353198610550684178437843262300545501062969968061672734"
+      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
+      "fee": "0"
     },
     {
-      "time": "2026-05-01T09:12:04Z",
-      "outcome": "Rinky Hijikata",
+      "time": "2026-05-02T00:17:28Z",
+      "outcome": "Under",
       "side": "BUY",
-      "price": "280142",
-      "shares": "9860844",
-      "usdc": "2762445",
+      "price": "460000",
+      "shares": "41779716616",
+      "usdc": "19218669649",
       "order_hash": "",
       "is_taker": false,
       "fill_count": 1,
-      "token_id": "50308069819514591694410353198610550684178437843262300545501062969968061672734"
-    },
-    {
-      "time": "2026-05-01T09:15:10Z",
-      "outcome": "Zizou Bergs",
-      "side": "BUY",
-      "price": "710000",
-      "shares": "401241378",
-      "usdc": "284881379",
-      "order_hash": "",
-      "is_taker": false,
-      "fill_count": 1,
-      "token_id": "236614268829353449034473236368775890074884866010611572612502334795854359928"
+      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
+      "fee": "0"
     }
   ]
 }

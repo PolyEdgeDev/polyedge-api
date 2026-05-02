@@ -81,7 +81,7 @@ async function main() {
                 const price = (Number(o.price) / 1e6).toFixed(3);
                 console.log(`[Order ${i+1}] ${o.time}`);
                 console.log(`  Action: ${o.side} ${o.outcome} @ $${price}`);
-                console.log(`  Shares: ${formatAmount(o.shares)} | USDC: $${formatAmount(o.usdc)} | Taker: ${o.is_taker ? "Yes" : "No"}`);
+                console.log(`  Shares: ${formatAmount(o.shares)} | USDC: $${formatAmount(o.usdc)} | Fee: $${formatAmount(o.fee)} | Taker: ${o.is_taker ? "Yes" : "No"}`);
             });
             if (ordersResponse.orders.length > 3) console.log(`  ... and ${ordersResponse.orders.length - 3} more orders.`);
         } else {

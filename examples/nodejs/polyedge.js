@@ -31,6 +31,7 @@ class PolyEdgeClient {
      * @param {number} [params.last_active_hours] - Filter traders active in the last N hours.
      * @param {number} [params.min_market_count] - Minimum number of markets traded.
      * @param {number} [params.max_market_count] - Maximum number of markets traded.
+     * @param {number} [params.min_pnl] - Minimum PnL (USDC).
      * @returns {Promise<Object>}
      */
     async getLeaderboard(params = {}) {

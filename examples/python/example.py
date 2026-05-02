@@ -76,7 +76,7 @@ def main():
                 price = f"{(float(o.get('price', '0')) / 1e6):.3f}"
                 print(f"[Order {i+1}] {o.get('time')}")
                 print(f"  Action: {o.get('side')} {o.get('outcome')} @ ${price}")
-                print(f"  Shares: {format_amount(o.get('shares', '0'))} | USDC: ${format_amount(o.get('usdc', '0'))} | Taker: {'Yes' if o.get('is_taker') else 'No'}")
+                print(f"  Shares: {format_amount(o.get('shares', '0'))} | USDC: ${format_amount(o.get('usdc', '0'))} | Fee: ${format_amount(o.get('fee', '0'))} | Taker: {'Yes' if o.get('is_taker') else 'No'}")
             if len(orders) > 3:
                 print(f"  ... and {len(orders) - 3} more orders.")
         else:
