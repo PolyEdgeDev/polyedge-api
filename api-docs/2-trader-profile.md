@@ -16,40 +16,51 @@ Get detailed performance statistics and metadata for a specific trader. This inc
 
 Returns a JSON object with the trader's `profile` metadata, a list of their most successful `top_tags`, and a `stats` object containing performance data for different time intervals.
 
-### Example JSON Response (for 0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9)
+### Example JSON Response (for 0x492442eab586f242b53bda933fd5de859c8a3782)
 
 ```json
 {
   "profile": {
-    "address": "0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9",
-    "name": "BoerAc",
+    "address": "0x492442eab586f242b53bda933fd5de859c8a3782",
+    "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
     "profile_image": "",
     "x_username": "",
-    "profile_created_at": "2026-04-23 17:00:49Z",
-    "last_trade_at": "2026-05-02 01:34:08Z"
+    "profile_created_at": "2025-12-21 11:45:42Z",
+    "last_trade_at": "2026-05-09 01:09:26Z"
   },
   "top_tags": [
     {
       "slug": "sports",
-      "pnl": "136520746527",
-      "volume": "1188050763083",
-      "roi": 11.63,
-      "win_rate": 53.57,
-      "markets_count": 28,
-      "maker_volume": "322015732083",
-      "taker_volume": "866035031000",
-      "wins_count": 15
+      "pnl": "2667408144312",
+      "volume": "12986655182732",
+      "roi": 20.72,
+      "win_rate": 53.15,
+      "markets_count": 111,
+      "maker_volume": "233374415432",
+      "taker_volume": "12753280767300",
+      "wins_count": 59
     },
     {
-      "slug": "tennis",
-      "pnl": "-71553500",
-      "volume": "106553500",
-      "roi": -67.15,
-      "win_rate": 50,
-      "markets_count": 4,
-      "maker_volume": "25950000",
-      "taker_volume": "80603500",
-      "wins_count": 2
+      "slug": "basketball",
+      "pnl": "1369511642209",
+      "volume": "8683497662664",
+      "roi": 15.98,
+      "win_rate": 52.81,
+      "markets_count": 89,
+      "maker_volume": "210673690564",
+      "taker_volume": "8472823972100",
+      "wins_count": 47
+    },
+    {
+      "slug": "hockey",
+      "pnl": "1297896502103",
+      "volume": "4303157520068",
+      "roi": 30.16,
+      "win_rate": 54.55,
+      "markets_count": 22,
+      "maker_volume": "22700724868",
+      "taker_volume": "4280456795200",
+      "wins_count": 12
     }
   ],
   "stats": {
@@ -65,53 +76,53 @@ Returns a JSON object with the trader's `profile` metadata, a list of their most
     },
     "t_4h": {
       "pnl": "0",
-      "volume": "0",
+      "volume": "111040237000",
       "roi": 0,
       "win_rate": 0,
       "markets_count": 1,
       "wins_count": 0,
       "maker_volume": "0",
-      "taker_volume": "0"
+      "taker_volume": "111040237000"
     },
     "t_1d": {
-      "pnl": "56527855741",
-      "volume": "124575239124",
-      "roi": 51.4,
-      "win_rate": 50,
-      "markets_count": 4,
-      "wins_count": 2,
-      "maker_volume": "66951127924",
-      "taker_volume": "57624111200"
+      "pnl": "274989398469",
+      "volume": "321617318998",
+      "roi": 130.59,
+      "win_rate": 60,
+      "markets_count": 5,
+      "wins_count": 3,
+      "maker_volume": "2473898",
+      "taker_volume": "321614845100"
     },
     "t_3d": {
-      "pnl": "467498184704",
-      "volume": "693556572906",
-      "roi": 68.86,
-      "win_rate": 69.23,
-      "markets_count": 13,
-      "wins_count": 9,
-      "maker_volume": "141264388406",
-      "taker_volume": "552292184500"
+      "pnl": "836915099729",
+      "volume": "887926602498",
+      "roi": 107.73,
+      "win_rate": 80,
+      "markets_count": 10,
+      "wins_count": 8,
+      "maker_volume": "2473898",
+      "taker_volume": "887924128600"
     },
     "t_7d": {
-      "pnl": "229121301599",
-      "volume": "1095415208011",
-      "roi": 21.2,
-      "win_rate": 65,
-      "markets_count": 20,
-      "wins_count": 13,
-      "maker_volume": "319812993311",
-      "taker_volume": "775602214700"
+      "pnl": "1358769445209",
+      "volume": "2582735070168",
+      "roi": 54.97,
+      "win_rate": 77.27,
+      "markets_count": 22,
+      "wins_count": 17,
+      "maker_volume": "132759708768",
+      "taker_volume": "2449975361400"
     },
     "t_30d": {
-      "pnl": "136520746527",
-      "volume": "1188050763083",
-      "roi": 11.63,
-      "win_rate": 53.57,
-      "markets_count": 28,
-      "wins_count": 15,
-      "maker_volume": "322015732083",
-      "taker_volume": "866035031000"
+      "pnl": "2667408144312",
+      "volume": "12986655182732",
+      "roi": 20.72,
+      "win_rate": 53.15,
+      "markets_count": 111,
+      "wins_count": 59,
+      "maker_volume": "233374415432",
+      "taker_volume": "12753280767300"
     }
   }
 }

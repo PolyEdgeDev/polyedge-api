@@ -107,7 +107,21 @@ def main():
             print(f"Total Traders: {market_detail_response.get('total_traders', 0)}")
 
         print_divider()
-        print("🔥 7. Starting PolyEdge SSE Stream...")
+        print(f"7. Fetching Comprehensive Market Data for {market_id}...")
+        market_data = client.get_market_data(market_id)
+        print("\n>>> Market Data (Top 3 Traders)")
+        traders = market_data.get('traders')
+        if traders and len(traders) > 0:
+            for i, t in enumerate(traders[:3]):
+                name = t['profile'].get('name') or "Unknown"
+                pnl = format_amount(t.get('pnl', '0'))
+                volume = format_amount(t.get('volume', '0'))
+                order_count = len(t.get('orders', []))
+                print(f"[Trader {i+1}] {name} ({t['profile']['address']})")
+                print(f"   PNL: ${pnl} | Volume: ${volume} | Orders: {order_count}")
+
+        print_divider()
+        print("🔥 8. Starting PolyEdge SSE Stream...")
         print("Listening for new orders (will exit after 3 events)...\n")
 
         event_count = 0

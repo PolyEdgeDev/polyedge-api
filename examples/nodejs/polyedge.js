@@ -63,6 +63,7 @@ class PolyEdgeClient {
      * @param {number} [params.limit] - Number of markets to return (Default: 20, Max: 100).
      * @param {number} [params.offset] - Pagination offset (Default: 0).
      * @param {boolean} [params.is_active] - Filter by active (unresolved) markets only.
+     * @param {boolean} [params.include_orders] - Include the trader's individual orders for each market.
      * @returns {Promise<Object>}
      */
     async getTraderMarkets(address, params = {}) {
@@ -111,6 +112,19 @@ class PolyEdgeClient {
      */
     async getMarketDetail(marketId) {
         const response = await fetch(`${this.baseUrl}/markets/${marketId}`, {
+            headers: this.headers
+        });
+        if (!response.ok) throw new Error(`API Error: ${response.status} ${response.statusText}`);
+        return response.json();
+    }
+
+    /**
+     * Retrieve comprehensive market data including all traders and their orders.
+     * @param {string|number} idOrSlug - The unique numeric ID or slug of the market.
+     * @returns {Promise<Object>}
+     */
+    async getMarketData(idOrSlug) {
+        const response = await fetch(`${this.baseUrl}/market_data/${idOrSlug}`, {
             headers: this.headers
         });
         if (!response.ok) throw new Error(`API Error: ${response.status} ${response.statusText}`);

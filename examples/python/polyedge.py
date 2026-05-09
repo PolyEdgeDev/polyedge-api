@@ -75,6 +75,7 @@ class PolyEdgeClient:
                 limit (int): Number of markets to return (Default: 20, Max: 100).
                 offset (int): Pagination offset (Default: 0).
                 is_active (bool): Filter by active (unresolved) markets only.
+                include_orders (bool): Include the trader's individual orders for each market.
                 
         Returns:
             dict: API response.
@@ -119,6 +120,18 @@ class PolyEdgeClient:
             dict: API response.
         """
         return self._get(f"/markets/{market_id}")
+
+    def get_market_data(self, id_or_slug):
+        """
+        Retrieve comprehensive market data including all traders and their orders.
+        
+        Args:
+            id_or_slug (str|int): The unique numeric ID or slug of the market.
+            
+        Returns:
+            dict: API response.
+        """
+        return self._get(f"/market_data/{id_or_slug}")
 
     def stream_orders(self, params=None):
         """

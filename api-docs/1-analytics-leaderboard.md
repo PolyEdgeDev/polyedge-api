@@ -35,90 +35,90 @@ Returns a JSON object containing a list of `traders` with their profile details,
   "traders": [
     {
       "profile": {
+        "address": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+        "name": "wan123",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2025-12-20T01:54:20Z",
+        "last_trade_at": "2026-05-09T00:33:25Z"
+      },
+      "total_pnl": "835953299810",
+      "total_volume": "976845630771",
+      "roi": 240.23,
+      "win_rate": 25.93,
+      "rank": 1,
+      "markets_count": 27,
+      "wins_count": 7
+    },
+    {
+      "profile": {
+        "address": "0x9495425feeb0c250accb89275c97587011b19a27",
+        "name": "LaBradfordSmith22",
+        "profile_image": "",
+        "x_username": "",
+        "profile_created_at": "2026-04-21T02:33:58Z",
+        "last_trade_at": "2026-05-09T02:00:41Z"
+      },
+      "total_pnl": "792542143048",
+      "total_volume": "3045297066004",
+      "roi": 33.34,
+      "win_rate": 49.48,
+      "rank": 2,
+      "markets_count": 287,
+      "wins_count": 142
+    },
+    {
+      "profile": {
         "address": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
         "name": "bossoskil1",
         "profile_image": "",
         "x_username": "",
         "profile_created_at": "2026-01-06T21:37:42Z",
-        "last_trade_at": "2026-05-02T15:45:42Z"
+        "last_trade_at": "2026-05-09T01:39:25Z"
       },
-      "total_pnl": "984813602766",
-      "total_volume": "3252443007439",
-      "roi": 38.56,
-      "win_rate": 46.25,
-      "rank": 1,
-      "markets_count": 80,
-      "wins_count": 37
-    },
-    {
-      "profile": {
-        "address": "0xbddf61af533ff524d27154e589d2d7a81510c684",
-        "name": "Countryside",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2025-11-06T22:44:56Z",
-        "last_trade_at": "2026-05-02T15:46:42Z"
-      },
-      "total_pnl": "888693163799",
-      "total_volume": "1403143049944",
-      "roi": 48.49,
-      "win_rate": 58.54,
-      "rank": 2,
-      "markets_count": 41,
-      "wins_count": 24
-    },
-    {
-      "profile": {
-        "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-        "name": "swisstony",
-        "profile_image": "",
-        "x_username": "",
-        "profile_created_at": "2025-07-29T14:46:06Z",
-        "last_trade_at": "2026-05-02T15:46:46Z"
-      },
-      "total_pnl": "529370253101",
-      "total_volume": "5617694283334",
-      "roi": 14.56,
-      "win_rate": 52.31,
+      "total_pnl": "738613152589",
+      "total_volume": "2748365674374",
+      "roi": 38.88,
+      "win_rate": 52.63,
       "rank": 3,
-      "markets_count": 2621,
-      "wins_count": 1371
+      "markets_count": 38,
+      "wins_count": 20
     },
     {
       "profile": {
-        "address": "0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9",
-        "name": "BoerAc",
+        "address": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-04-23T17:00:49Z",
-        "last_trade_at": "2026-05-02T01:34:08Z"
+        "profile_created_at": "2025-12-21T11:45:42Z",
+        "last_trade_at": "2026-05-09T01:09:26Z"
       },
-      "total_pnl": "525232564504",
-      "total_volume": "749751555106",
-      "roi": 71.45,
-      "win_rate": 71.43,
+      "total_pnl": "558516314230",
+      "total_volume": "887926602498",
+      "roi": 98.04,
+      "win_rate": 50,
       "rank": 4,
-      "markets_count": 14,
-      "wins_count": 10
+      "markets_count": 10,
+      "wins_count": 5
     },
     {
       "profile": {
-        "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-        "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+        "address": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+        "name": "anoin123",
         "profile_image": "",
         "x_username": "",
-        "profile_created_at": "2026-03-02T19:20:15Z",
-        "last_trade_at": "2026-05-02T15:27:30Z"
+        "profile_created_at": "2025-12-26T16:49:59Z",
+        "last_trade_at": "2026-05-09T01:59:38Z"
       },
-      "total_pnl": "449524569575",
-      "total_volume": "6167078041930",
-      "roi": 9.98,
-      "win_rate": 46.15,
+      "total_pnl": "481353330289",
+      "total_volume": "4924912456035",
+      "roi": 38.9,
+      "win_rate": 59.62,
       "rank": 5,
-      "markets_count": 91,
-      "wins_count": 42
+      "markets_count": 52,
+      "wins_count": 31
     }
   ],
-  "total_count": 149708
+  "total_count": 175261
 }
 ```

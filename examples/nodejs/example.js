@@ -117,8 +117,21 @@ async function main() {
         }
 
         printDivider();
-        // 7. Stream Orders
-        console.log("🔥 7. Starting PolyEdge SSE Stream...");
+        // 7. Get Comprehensive Market Data
+        console.log(`7. Fetching Comprehensive Market Data for ${marketId}...`);
+        const marketData = await client.getMarketData(marketId);
+        console.log(`\n>>> Market Data (Top 3 Traders)`);
+        if (marketData.traders && marketData.traders.length > 0) {
+            marketData.traders.slice(0, 3).forEach((t, i) => {
+                const name = t.profile.name || "Unknown";
+                console.log(`[Trader ${i+1}] ${name} (${t.profile.address})`);
+                console.log(`   PNL: $${formatAmount(t.pnl)} | Volume: $${formatAmount(t.volume)} | Orders: ${t.orders.length}`);
+            });
+        }
+
+        printDivider();
+        // 8. Stream Orders
+        console.log("🔥 8. Starting PolyEdge SSE Stream...");
         console.log("Listening for new orders (will exit after 3 events)...\n");
 
         let eventCount = 0;

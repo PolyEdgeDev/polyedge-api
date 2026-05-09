@@ -17,49 +17,22 @@ Retrieve a comprehensive list of individual orders placed by a specific trader w
 
 Returns a JSON object containing an `orders` array. Each order specifies the execution timestamp, side (`BUY`/`SELL`), price, USDC volume, share amount, order hash, and the number of matched counter-orders.
 
-### Example JSON Response (for Trader: 0x986b16df5791e7dc4c6f6ef3524eff0efe6812e9, Market: 2134185)
+### Example JSON Response (for Trader: 0x492442eab586f242b53bda933fd5de859c8a3782, Market: 2182202)
 
 ```json
 {
   "orders": [
     {
-      "time": "2026-05-02T00:17:28Z",
-      "outcome": "Under",
+      "time": "2026-05-09T01:09:26Z",
+      "outcome": "Spurs",
       "side": "BUY",
-      "price": "460000",
-      "shares": "247000000",
-      "usdc": "113620000",
-      "order_hash": "",
-      "is_taker": false,
-      "fill_count": 1,
-      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
-      "fee": "0"
-    },
-    {
-      "time": "2026-05-02T00:17:28Z",
-      "outcome": "Under",
-      "side": "BUY",
-      "price": "460000",
-      "shares": "12550590000",
-      "usdc": "5773271400",
+      "price": "550000",
+      "shares": "201891340000",
+      "usdc": "111040237000",
       "order_hash": "",
       "is_taker": true,
-      "fill_count": 1,
-      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
-      "fee": "0"
-    },
-    {
-      "time": "2026-05-02T00:17:28Z",
-      "outcome": "Under",
-      "side": "BUY",
-      "price": "460000",
-      "shares": "41779716616",
-      "usdc": "19218669649",
-      "order_hash": "",
-      "is_taker": false,
-      "fill_count": 1,
-      "token_id": "84049545167949902865364923335859843787927753544064783266584167686779289846763",
-      "fee": "0"
+      "token_id": "54541580013880432288689166707450886218131241193556168813835256680396626669061",
+      "fee": "1499043190"
     }
   ]
 }
